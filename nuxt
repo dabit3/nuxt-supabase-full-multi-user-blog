@@ -1,0 +1,802 @@
+
+ℹ Using Tailwind CSS from ~/assets/css/tailwind.css                                                                                                                                          nuxt:tailwindcss 18:10:56
+ℹ Merging Tailwind config from ~/tailwind.config.js                                                                                                                                          nuxt:tailwindcss 18:10:56
+
+   ╭───────────────────────────────────────────────────────╮
+   │                                                       │
+   │   Nuxt @ v2.15.7                                      │
+   │                          │                          │                          │                          │                          │               id       │                          │                             │              │                       �                                              │
+   │   Listening: http://localhost:3000/                   │
+   │                                                       │
+   │   Tailwind Viewer: http://localhost:3000/_tailwind/   │
+   │                                                       │
+   ╰───────────────────────────────────────────────────────╯
+
+ℹ Preparing project for development                                                                                                                                                                           18:10:57
+ℹ Initial build may take a while                                                                                                                                                                              18:10:57
+ℹ Discovered Components: .nuxt/components/readme.md                                                                                                                                                           18:10:57
+✔ Builder initialized                                                                                                                                                                                         18:10:57
+✔ Nuxt files generated                                                                                                                                                                                        18:10:57
+
+● Client █████████████████████████ building (47%) 311/314 modules 3 active
+ css-loader › vue-loader › postcss-loader › vue-loader › node_modules/vue-simplemde/src/index.vue
+
+✖ Server
+  Compiled with some errors in 9.19s
+
+
+✖ Client
+  Compiled with some errors in 9.91s
+
+✖ Server
+  Compiled with some errors in 9.19s
+
+
+ ERROR  Failed to compile with 1 errors                                                                                                                                                       friendly-errors 18:11:08
+
+
+ ERROR  in ./pages/posts/_id.vue?vue&type=script&lang=js&                                                                                                                                     friendly-errors 18:11:08
+
+Syntax Error: Unexpected token, expected "," (20:38)                                                                                                                                          friendly-errors 18:11:08
+
+  18 |     compiledMarkdown: function () {
+  19 |       console.log('this;', this)
+> 20 |       return marked(this.post.content { sanitize: true })
+     |                                       ^
+  21 |     }
+  22 |   },
+  23 |   async asyncData({ route, $supabase }) {
+
+                                                                                                                                                                                              friendly-errors 18:11:08
+ @ ./pages/posts/_id.vue?vue&type=script&lang=js& 1:0-173 1:189-192 1:194-364 1:194-364
+ @ ./pages/posts/_id.vue
+ @ ./.nuxt/router.js
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi ./node_modules/eventsource-polyfill/dist/browserify-eventsource.js (webpack)-hot-middleware/client.js?reload=true&timeout=30000&ansiColors=&overlayStyles=&path=%2F__webpack_hmr%2Fclient&name=client ./.nuxt/client.js
+                                                                                                                                                                                              friendly-errors 18:11:08
+ℹ Waiting for file changes                                                                                                                                                                                    18:11:08
+ℹ Memory usage: 458 MB (RSS: 2.87 GB)                                                                                                                                                                         18:11:08
+ℹ Listening on: http://localhost:3000/                                                                                                                                                                        18:11:08
+↻ Updated pages/posts/_id.vue                                                                                                                                                                                 18:11:24
+
+✔ Client
+  Compiled successfully in 308.18ms
+
+✔ Server
+  Compiled successfully in 307.13ms
+
+this; <ref *2> VueComponent {                                                                                                                                                                                 18:11:27
+  _uid: 11,
+  _isVue: true,
+  '$options': {
+    parent: <ref *1> VueComponent {
+      _uid: 10,
+      _isVue: true,
+      '$options': [Object],
+      _renderProxy: [Circular *1],
+      _self: [Circular *1],
+      '$parent': [VueComponent],
+      '$root': [Vue],
+      '$children': [],
+      '$refs': {},
+      _watcher: null,
+      _inactive: null,
+      _directInactive: false,
+      _isMounted: false,
+      _isDestroyed: false,
+      _isBeingDestroyed: false,
+      _events: [Object: null prototype] {},
+      _hasHookEvent: false,
+      _vnode: null,
+      _staticTrees: null,
+      '$vnode': [VNode],
+      '$slots': [Object],
+      '$scopedSlots': [Object],
+      _c: [Function (anonymous)],
+      '$createElement': [Function (anonymous)],
+      '$attrs': [Getter/Setter],
+      '$listeners': [Getter/Setter],
+      _routerRoot: [Vue],
+      _watchers: [],
+      _props: [Object],
+      _data: {}
+    },
+    _parentVnode: VNode {
+      tag: 'vue-component-14-pages/posts/_id.vue',
+      data: [Object],
+      children: undefined,
+      text: undefined,
+      elm: undefined,
+      ns: undefined,
+      context: [VueComponent],
+      fnContext: [VueComponent],
+      fnOptions: [Object],
+      fnScopeId: undefined,
+      key: '__transition-10-/posts/4',
+      componentOptions: [Object],
+      componentInstance: undefined,
+      parent: [VNode],
+      raw: false,
+      isStatic: false,
+      isRootInsert: true,
+      isComment: false,
+      isCloned: true,
+      isOnce: false,
+      asyncFactory: undefined,
+      asyncMeta: undefined,
+      isAsyncPlaceholder: false,
+      devtoolsMeta: [Object],
+      ssrContext: [Object]
+    },
+    propsData: undefined,
+    _parentListeners: undefined,
+    _renderChildren: undefined,
+    _componentTag: undefined
+  },
+  _renderProxy: [Circular *2],
+  _self: [Circular *2],
+  '$parent': <ref *3> VueComponent {
+    _uid: 9,
+    _isVue: true,
+    '$options': {
+      parent: [VueComponent],
+      _parentVnode: [VNode],
+      propsData: {},
+      _parentListeners: undefined,
+      _renderChildren: undefined,
+      _componentTag: 'Nuxt',
+      _propKeys: [Array]
+    },
+    _renderProxy: [Circular *3],
+    _self: [Circular *3],
+    '$parent': <ref *4> VueComponent {
+      _uid: 5,
+      _isVue: true,
+      '$options': [Object],
+      _renderProxy: [Circular *4],
+      _self: [Circular *4],
+      '$parent': [Vue],
+      '$root': [Vue],
+      '$children': [Array],
+      '$refs': {},
+      _watcher: null,
+      _inactive: null,
+      _directInactive: false,
+      _isMounted: false,
+      _isDestroyed: false,
+      _isBeingDestroyed: false,
+      _events: [Object: null prototype] {},
+      _hasHookEvent: false,
+      _vnode: null,
+      _staticTrees: null,
+      '$vnode': [VNode],
+      '$slots': {},
+      '$scopedSlots': {},
+      _c: [Function (anonymous)],
+      '$createElement': [Function (anonymous)],
+      '$attrs': [Getter/Setter],
+      '$listeners': [Getter/Setter],
+      _routerRoot: [Vue],
+      _watchers: [],
+      _data: {}
+    },
+    '$root': <ref *5> Vue {
+      _uid: 0,
+      _isVue: true,
+      '$options': [Object],
+      _renderProxy: [Circular *5],
+      _self: [Circular *5],
+      '$parent': undefined,
+      '$root': [Circular *5],
+      '$children': [Array],
+      '$refs': {},
+      _watcher: null,
+      _inactive: null,
+      _directInactive: false,
+      _isMounted: false,
+      _isDestroyed: false,
+      _isBeingDestroyed: false,
+      _events: [Object: null prototype],
+      _hasHookEvent: true,
+      _vnode: null,
+      _staticTrees: null,
+      '$vnode': undefined,
+      '$slots': {},
+      '$scopedSlots': {},
+      _c: [Function (anonymous)],
+      '$createElement': [Function (anonymous)],
+      '$attrs': [Getter/Setter],
+      '$listeners': [Getter/Setter],
+      _routerRoot: [Circular *5],
+      _router: [VueRouter],
+      _route: [Getter/Setter],
+      _vueMeta: [Object],
+      nuxt: [Getter/Setter],
+      _watchers: [Array],
+      refreshOnlineStatus: [Function: bound refreshOnlineStatus],
+      refresh: [Function: bound refresh] AsyncFunction,
+      errorChanged: [Function: bound errorChanged],
+      setLayout: [Function: bound setLayout],
+      loadLayout: [Function: bound loadLayout],
+      _data: [Object],
+      nbFetching: [Getter/Setter],
+      layoutName: [Getter/Setter],
+      layout: [Getter/Setter],
+      isOnline: [Getter/Setter],
+      _computedWatchers: [Object: null prototype] {},
+      isOffline: [Getter/Setter],
+      isFetching: [Getter/Setter],
+      error: [Function: error],
+      context: [Object]
+    },
+    '$children': [
+      [Circular *2]
+    ],
+    '$refs': {},
+    _watcher: null,
+    _inactive: null,
+    _directInactive: false,
+    _isMounted: false,
+    _isDestroyed: false,
+    _isBeingDestroyed: false,
+    _events: [Object: null prototype] {},
+    _hasHookEvent: false,
+    _vnode: null,
+    _staticTrees: null,
+    '$vnode': VNode {
+      tag: 'vue-component-12-Nuxt',
+      data: [Object],
+      children: undefined,
+      text: undefined,
+      elm: undefined,
+      ns: undefined,
+      context: [VueComponent],
+      fnContext: undefined,
+      fnOptions: undefined,
+      fnScopeId: undefined,
+      key: undefined,
+      componentOptions: [Object],
+      componentInstance: undefined,
+      parent: undefined,
+      raw: false,
+      isStatic: false,
+      isRootInsert: true,
+      isComment: false,
+      isCloned: false,
+      isOnce: false,
+      asyncFactory: undefined,
+      asyncMeta: undefined,
+      isAsyncPlaceholder: false,
+      ssrContext: [Object]
+    },
+    '$slots': {},
+    '$scopedSlots': {},
+    _c: [Function (anonymous)],
+    '$createElement': [Function (anonymous)],
+    '$attrs': [Getter/Setter],
+    '$listeners': [Getter/Setter],
+    _routerRoot: <ref *5> Vue {
+      _uid: 0,
+      _isVue: true,
+      '$options': [Object],
+      _renderProxy: [Circular *5],
+      _self: [Circular *5],
+      '$parent': undefined,
+      '$root': [Circular *5],
+      '$children': [Array],
+      '$refs': {},
+      _watcher: null,
+      _inactive: null,
+      _directInactive: false,
+      _isMounted: false,
+      _isDestroyed: false,
+      _isBeingDestroyed: false,
+      _events: [Object: null prototype],
+      _hasHookEvent: true,
+      _vnode: null,
+      _staticTrees: null,
+      '$vnode': undefined,
+      '$slots': {},
+      '$scopedSlots': {},
+      _c: [Function (anonymous)],
+      '$createElement': [Function (anonymous)],
+      '$attrs': [Getter/Setter],
+      '$listeners': [Getter/Setter],
+      _routerRoot: [Circular *5],
+      _router: [VueRouter],
+      _route: [Getter/Setter],
+      _vueMeta: [Object],
+      nuxt: [Getter/Setter],
+      _watchers: [Array],
+      refreshOnlineStatus: [Function: bound refreshOnlineStatus],
+      refresh: [Function: bound refresh] AsyncFunction,
+      errorChanged: [Function: bound errorChanged],
+      setLayout: [Function: bound setLayout],
+      loadLayout: [Function: bound loadLayout],
+      _data: [Object],
+      nbFetching: [Getter/Setter],
+      layoutName: [Getter/Setter],
+      layout: [Getter/Setter],
+      isOnline: [Getter/Setter],
+      _computedWatchers: [Object: null prototype] {},
+      isOffline: [Getter/Setter],
+      isFetching: [Getter/Setter],
+      error: [Function: error],
+      context: [Object]
+    },
+    nuxt: [Getter/Setter],
+    _watchers: [],
+    _props: {
+      nuxtChildKey: [Getter/Setter],
+      keepAlive: [Getter/Setter],
+      keepAliveProps: [Getter/Setter],
+      name: [Getter/Setter]
+    },
+    _data: {},
+    _computedWatchers: [Object: null prototype] {},
+    _routerViewCache: {
+      default: [Object]
+    }
+  },
+  '$root': <ref *5> Vue {
+    _uid: 0,
+    _isVue: true,
+    '$options': {
+      components: [Object <Complex prototype>],
+      directives: Object <Complex prototype> {},
+      filters: Object <Complex prototype> {},
+      _base: [Function],
+      beforeCreate: [Array],
+      destroyed: [Array],
+      created: [Array],
+      head: [Object],
+      router: [VueRouter],
+      nuxt: [Object],
+      render: [Function: render],
+      data: [Function: mergedInstanceDataFn],
+      mounted: [Array],
+      watch: [Object],
+      computed: [Object],
+      methods: [Object],
+      context: [Object],
+      '$config': [Object],
+      '$supabase': [SupabaseClient],
+      '$nuxt': [Circular *5]
+    },
+    _renderProxy: [Circular *5],
+    _self: [Circular *5],
+    '$parent': undefined,
+    '$root': [Circular *5],
+    '$children': [
+      [VueComponent],
+      [VueComponent],
+      [VueComponent]
+    ],
+    '$refs': {},
+    _watcher: null,
+    _inactive: null,
+    _directInactive: false,
+    _isMounted: false,
+    _isDestroyed: false,
+    _isBeingDestroyed: false,
+    _events: [Object: null prototype] {
+      'hook:destroyed': [Array],
+      'hook:beforeMount': [Array]
+    },
+    _hasHookEvent: true,
+    _vnode: null,
+    _staticTrees: null,
+    '$vnode': undefined,
+    '$slots': {},
+    '$scopedSlots': {},
+    _c: [Function (anonymous)],
+    '$createElement': [Function (anonymous)],
+    '$attrs': [Getter/Setter],
+    '$listeners': [Getter/Setter],
+    _routerRoot: [Circular *5],
+    _router: VueRouter {
+      app: [Circular *5],
+      apps: [Array],
+      options: [Object],
+      beforeHooks: [],
+      resolveHooks: [],
+      afterHooks: [],
+      matcher: [Object],
+      fallback: false,
+      mode: 'abstract',
+      history: [AbstractHistory],
+      push: [Function: push],
+      resolve: [Function (anonymous)]
+    },
+    _route: [Getter/Setter],
+    _vueMeta: {
+      appId: 1,
+      initialized: true
+    },
+    nuxt: [Getter/Setter],
+    _watchers: [
+      [Watcher]
+    ],
+    refreshOnlineStatus: [Function: bound refreshOnlineStatus],
+    refresh: [Function: bound refresh] AsyncFunction,
+    errorChanged: [Function: bound errorChanged],
+    setLayout: [Function: bound setLayout],
+    loadLayout: [Function: bound loadLayout],
+    _data: {
+      isOnline: true,
+      layout: [Function],
+      layoutName: 'default',
+      nbFetching: 0
+    },
+    nbFetching: [Getter/Setter],
+    layoutName: [Getter/Setter],
+    layout: [Getter/Setter],
+    isOnline: [Getter/Setter],
+    _computedWatchers: [Object: null prototype] {},
+    isOffline: [Getter/Setter],
+    isFetching: [Getter/Setter],
+    error: [Function: error],
+    context: {
+      isStatic: false,
+      isDev: true,
+      isHMR: false,
+      app: [Object],
+      payload: undefined,
+      error: [Function: bound error],
+      base: '/',
+      env: {},
+      req: [IncomingMessage],
+      res: [ServerResponse],
+      ssrContext: [Object],
+      redirect: [Function (anonymous)],
+      beforeNuxtRender: [Function (anonymous)],
+      route: [Object],
+      next: [Function (anonymous)],
+      _redirected: false,
+      _errored: false,
+      params: [Object],
+      query: {},
+      '$config': [Object],
+      '$supabase': [SupabaseClient]
+    }
+  },
+  '$children': [],
+  '$refs': {},
+  _watcher: null,
+  _inactive: null,
+  _directInactive: false,
+  _isMounted: false,
+  _isDestroyed: false,
+  _isBeingDestroyed: false,
+  _events: [Object: null prototype] {},
+  _hasHookEvent: false,
+  _vnode: null,
+  _staticTrees: null,
+  '$vnode': VNode {
+    tag: 'vue-component-14-pages/posts/_id.vue',
+    data: {
+      key: '/posts/4',
+      props: [Object],
+      nuxtChild: true,
+      nuxtChildDepth: 0,
+      routerView: true,
+      routerViewDepth: 0,
+      registerRouteInstance: [Function (anonymous)],
+      hook: [Object],
+      on: undefined,
+      transition: [Object]
+    },
+    children: undefined,
+    text: undefined,
+    elm: undefined,
+    ns: undefined,
+    context: <ref *3> VueComponent {
+      _uid: 9,
+      _isVue: true,
+      '$options': [Object],
+      _renderProxy: [Circular *3],
+      _self: [Circular *3],
+      '$parent': [VueComponent],
+      '$root': [Vue],
+      '$children': [Array],
+      '$refs': {},
+      _watcher: null,
+      _inactive: null,
+      _directInactive: false,
+      _isMounted: false,
+      _isDestroyed: false,
+      _isBeingDestroyed: false,
+      _events: [Object: null prototype] {},
+      _hasHookEvent: false,
+      _vnode: null,
+      _staticTrees: null,
+      '$vnode': [VNode],
+      '$slots': {},
+      '$scopedSlots': {},
+      _c: [Function (anonymous)],
+      '$createElement': [Function (anonymous)],
+      '$attrs': [Getter/Setter],
+      '$listeners': [Getter/Setter],
+      _routerRoot: [Vue],
+      nuxt: [Getter/Setter],
+      _watchers: [],
+      _props: [Object],
+      _data: {},
+      _computedWatchers: [Object: null prototype] {},
+      _routerViewCache: [Object]
+    },
+    fnContext: <ref *3> VueComponent {
+      _uid: 9,
+      _isVue: true,
+      '$options': [Object],
+      _renderProxy: [Circular *3],
+      _self: [Circular *3],
+      '$parent': [VueComponent],
+      '$root': [Vue],
+      '$children': [Array],
+      '$refs': {},
+      _watcher: null,
+      _inactive: null,
+      _directInactive: false,
+      _isMounted: false,
+      _isDestroyed: false,
+      _isBeingDestroyed: false,
+      _events: [Object: null prototype] {},
+      _hasHookEvent: false,
+      _vnode: null,
+      _staticTrees: null,
+      '$vnode': [VNode],
+      '$slots': {},
+      '$scopedSlots': {},
+      _c: [Function (anonymous)],
+      '$createElement': [Function (anonymous)],
+      '$attrs': [Getter/Setter],
+      '$listeners': [Getter/Setter],
+      _routerRoot: [Vue],
+      nuxt: [Getter/Setter],
+      _watchers: [],
+      _props: [Object],
+      _data: {},
+      _computedWatchers: [Object: null prototype] {},
+      _routerViewCache: [Object]
+    },
+    fnOptions: {
+      components: [Object <Complex prototype>],
+      directives: Object <Complex prototype> {},
+      filters: Object <Complex prototype> {},
+      _base: [Function],
+      beforeCreate: [Array],
+      destroyed: [Array],
+      created: [Array],
+      name: 'RouterView',
+      functional: true,
+      props: [Object],
+      render: [Function: render],
+      _Ctor: [Object]
+    },
+    fnScopeId: undefined,
+    key: '__transition-10-/posts/4',
+    componentOptions: {
+      Ctor: [Function],
+      propsData: undefined,
+      listeners: undefined,
+      tag: undefined,
+      children: undefined
+    },
+    componentInstance: undefined,
+    parent: VNode {
+      tag: 'vue-component-16-transition',
+      data: [Object],
+      children: undefined,
+      text: undefined,
+      elm: undefined,
+      ns: undefined,
+      context: [VueComponent],
+      fnContext: [VueComponent],
+      fnOptions: [Object],
+      fnScopeId: undefined,
+      key: undefined,
+      componentOptions: [Object],
+      componentInstance: undefined,
+      parent: [VNode],
+      raw: false,
+      isStatic: false,
+      isRootInsert: true,
+      isComment: false,
+      isCloned: true,
+      isOnce: false,
+      asyncFactory: undefined,
+      asyncMeta: undefined,
+      isAsyncPlaceholder: false,
+      devtoolsMeta: [Object],
+      ssrContext: [Object]
+    },
+    raw: false,
+    isStatic: false,
+    isRootInsert: true,
+    isComment: false,
+    isCloned: true,
+    isOnce: false,
+    asyncFactory: undefined,
+    asyncMeta: undefined,
+    isAsyncPlaceholder: false,
+    devtoolsMeta: {
+      renderContext: [FunctionalRenderContext]
+    },
+    ssrContext: {
+      req: [IncomingMessage],
+      res: [ServerResponse],
+      url: '/posts/4',
+      target: 'server',
+      spa: undefined,
+      modern: false,
+      runtimeConfig: [Object],
+      _registeredComponents: [Set],
+      styles: [Getter],
+      _renderStyles: [Function: renderStyles],
+      _styles: [Object],
+      redirected: false,
+      next: [Function (anonymous)],
+      beforeRenderFns: [],
+      nuxt: [Object],
+      fetchCounters: {},
+      meta: [Object],
+      asyncData: [Object],
+      renderResourceHints: [Function: bound renderResourceHints],
+      renderState: [Function: bound renderState],
+      renderScripts: [Function: bound renderScripts],
+      renderStyles: [Function: bound renderStyles],
+      getPreloadFiles: [Function: bound getPreloadFiles]
+    }
+  },
+  '$slots': {},
+  '$scopedSlots': {},
+  _c: [Function (anonymous)],
+  '$createElement': [Function (anonymous)],
+  '$attrs': [Getter/Setter],
+  '$listeners': [Getter/Setter],
+  _routerRoot: <ref *5> Vue {
+    _uid: 0,
+    _isVue: true,
+    '$options': {
+      components: [Object <Complex prototype>],
+      directives: Object <Complex prototype> {},
+      filters: Object <Complex prototype> {},
+      _base: [Function],
+      beforeCreate: [Array],
+      destroyed: [Array],
+      created: [Array],
+      head: [Object],
+      router: [VueRouter],
+      nuxt: [Object],
+      render: [Function: render],
+      data: [Function: mergedInstanceDataFn],
+      mounted: [Array],
+      watch: [Object],
+      computed: [Object],
+      methods: [Object],
+      context: [Object],
+      '$config': [Object],
+      '$supabase': [SupabaseClient],
+      '$nuxt': [Circular *5]
+    },
+    _renderProxy: [Circular *5],
+    _self: [Circular *5],
+    '$parent': undefined,
+    '$root': [Circular *5],
+    '$children': [
+      [VueComponent],
+      [VueComponent],
+      [VueComponent]
+    ],
+    '$refs': {},
+    _watcher: null,
+    _inactive: null,
+    _directInactive: false,
+    _isMounted: false,
+    _isDestroyed: false,
+    _isBeingDestroyed: false,
+    _events: [Object: null prototype] {
+      'hook:destroyed': [Array],
+      'hook:beforeMount': [Array]
+    },
+    _hasHookEvent: true,
+    _vnode: null,
+    _staticTrees: null,
+    '$vnode': undefined,
+    '$slots': {},
+    '$scopedSlots': {},
+    _c: [Function (anonymous)],
+    '$createElement': [Function (anonymous)],
+    '$attrs': [Getter/Setter],
+    '$listeners': [Getter/Setter],
+    _routerRoot: [Circular *5],
+    _router: VueRouter {
+      app: [Circular *5],
+      apps: [Array],
+      options: [Object],
+      beforeHooks: [],
+      resolveHooks: [],
+      afterHooks: [],
+      matcher: [Object],
+      fallback: false,
+      mode: 'abstract',
+      history: [AbstractHistory],
+      push: [Function: push],
+      resolve: [Function (anonymous)]
+    },
+    _route: [Getter/Setter],
+    _vueMeta: {
+      appId: 1,
+      initialized: true
+    },
+    nuxt: [Getter/Setter],
+    _watchers: [
+      [Watcher]
+    ],
+    refreshOnlineStatus: [Function: bound refreshOnlineStatus],
+    refresh: [Function: bound refresh] AsyncFunction,
+    errorChanged: [Function: bound errorChanged],
+    setLayout: [Function: bound setLayout],
+    loadLayout: [Function: bound loadLayout],
+    _data: {
+      isOnline: true,
+      layout: [Function],
+      layoutName: 'default',
+      nbFetching: 0
+    },
+    nbFetching: [Getter/Setter],
+    layoutName: [Getter/Setter],
+    layout: [Getter/Setter],
+    isOnline: [Getter/Setter],
+    _computedWatchers: [Object: null prototype] {},
+    isOffline: [Getter/Setter],
+    isFetching: [Getter/Setter],
+    error: [Function: error],
+    context: {
+      isStatic: false,
+      isDev: true,
+      isHMR: false,
+      app: [Object],
+      payload: undefined,
+      error: [Function: bound error],
+      base: '/',
+      env: {},
+      req: [IncomingMessage],
+      res: [ServerResponse],
+      ssrContext: [Object],
+      redirect: [Function (anonymous)],
+      beforeNuxtRender: [Function (anonymous)],
+      route: [Object],
+      next: [Function (anonymous)],
+      _redirected: false,
+      _errored: false,
+      params: [Object],
+      query: {},
+      '$config': [Object],
+      '$supabase': [SupabaseClient]
+    }
+  },
+  _watchers: [],
+  _data: {
+    post: {
+      id: 4,
+      user_id: '1900e576-b2f8-4c73-a5a8-73eebf4732a4',
+      user_email: 'dabit3@gmail.com',
+      title: 'My First Post',
+      content: '# Hello world!',
+      inserted_at: '2021-07-16T23:04:29.424988+00:00'
+    }
+  },
+  post: [Getter/Setter],
+  _computedWatchers: [Object: null prototype] {}
+}
+
+ WARN  marked(): sanitize and sanitizer parameters are deprecated since version 0.7.0, should not be used and will be removed in the future. Read more here: https://marked.js.org/#/USING_ADVANCED.md#options
+
+yarn accc^C
+
+nuxt-supabase on  master [?] via  v14.16.1 took 2m1s
+❯ tyarn ct
+
