@@ -21,6 +21,11 @@ export default {
     'simplemde/dist/simplemde.min.css',
   ],
 
+  env: {
+    SUPABASE_URL: "",
+    PUBLIC_API_KEY: ""
+  },
+
   plugins: [
     { src: '~plugins/client.js' },
     { src: '~plugins/simplemde.js', mode: 'client' },

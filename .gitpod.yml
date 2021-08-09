@@ -1,4 +1,4 @@
 tasks:
   - name: Install, start node, and deploy
     init: yarn
-    command: npm start
+    command: SUPABASE_URL=env.SUPABASE_URL PUBLIC_API_KEY=env.PUBLIC_API_KEY npm run dev
