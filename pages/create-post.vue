@@ -1,3 +1,4 @@
+<!-- pages/create-post.js -->
 <template>
   <main>
     <div id="editor">
