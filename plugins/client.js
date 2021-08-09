@@ -1,8 +1,8 @@
 import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.PUBLIC_API_KEY
+  "your-supabase-api-url",
+  "your-supabase-public-api-key"
 )
 
 export default (_, inject) => {
